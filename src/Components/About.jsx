@@ -32,7 +32,7 @@ const About = () => {
                     I’m Shreyas Karkera, a passionate web developer from India. I create clean, modern, and responsive websites with a focus on user experience. I enjoy turning ideas into interactive web solutions and continuously learning new technologies to enhance my craft.
                 </motion.p>
                 {/* Buttons */}
-                <div className="flex sm:flex-row gap-4 sm:gap-9  sm:mb-16  text-center items-center  ">
+                <div className="flex flex-row gap-4 sm:gap-6 mt-2 mb-4 items-center justify-start">
                     <Button name="Resume" />
                     <Link to="/more-about">
                         <Button name="More" />

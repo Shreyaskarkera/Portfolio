@@ -17,7 +17,7 @@ const App = () => {
           </div>
         } />
         <Route path="/more-about" element={
-          <div className='mx-38'>
+          <div className='mx-9 md:mx-19 lg:mx-38'>
             <MoreAbout />
           </div>
         } />
