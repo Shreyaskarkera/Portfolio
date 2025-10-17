@@ -4,7 +4,7 @@ import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import About from './Components/About'
 import MoreAbout from './Components/MoreAbout'
-
+import ScrollToTop from './Components/ScrollToTop'
 const App = () => {
   return (
     <Router>
