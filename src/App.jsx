@@ -11,7 +11,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={
-          <div className='mx-38'>
+          <div className='mx-9 md:mx-19 lg:mx-38'>
             <Home />
             <About />
           </div>

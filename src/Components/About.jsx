@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const About = () => {
     return (
         <>
-            <div className="mt-[100px] px-4 sm:px-6 md:px-12 lg:px-24">
+            <div className="mt-[100px] px-4 sm:px-2 md:px-12 lg:px-24">
                 {/* ABOUT Heading */}
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
