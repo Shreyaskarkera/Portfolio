@@ -40,12 +40,18 @@ const MoreAbout = () => {
                         I love transforming ideas into intuitive digital experiences, blending robust functionality with elegant design.</motion.p>
                 </div>
             </div>
-            <div className='col-span-4 h-auto my-10 text-white'>
-                <p className='font-bold text-4xl'>Skill & Interest</p>
-                <p>I’m passionate about continuous learning and constantly improving my skills to keep up with the fast-changing world of web development. I thrive in creative, collaborative environments that value innovation and user-centered design. My technical strengths include HTML, CSS, JavaScript, PHP, and MySQL, along with growing experience in React and Tailwind CSS.
+            <div className='col-span-4 h-auto text-white'>
+                <motion.p initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.85 }}
+                    className='font-bold text-4xl'>Skill & Interest</motion.p>
+                <motion.p initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 1 }}>
+                    I’m passionate about continuous learning and constantly improving my skills to keep up with the fast-changing world of web development. I thrive in creative, collaborative environments that value innovation and user-centered design. My technical strengths include HTML, CSS, JavaScript, PHP, and MySQL, along with growing experience in React and Tailwind CSS.
 
 
-                    I enjoy crafting responsive web applications, designing clean interfaces, and exploring UI/UX principles that enhance user experience. Beyond coding, photography is my creative outlet — it helps me see design, balance, and composition in a whole new way. I also love long rides and exploring new places, which keep me inspired, refreshed, and full of creative energy.</p>
+                    I enjoy crafting responsive web applications, designing clean interfaces, and exploring UI/UX principles that enhance user experience. Beyond coding, photography is my creative outlet — it helps me see design, balance, and composition in a whole new way. I also love long rides and exploring new places, which keep me inspired, refreshed, and full of creative energy.</motion.p>
             </div>
         </div>
     )
