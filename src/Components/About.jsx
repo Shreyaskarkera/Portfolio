@@ -1,12 +1,51 @@
-import React from 'react'
+import React from 'react';
+import Button from './Buttons/Button';
+import NavigationButton from './NavigationButton';
+import { Link } from 'react-router-dom';
+import { motion } from "framer-motion";
 
 const About = () => {
     return (
-        <div>
-            <p className='text-8xl font-normal  text-[var(--maintext-color)] tracking-[0.20em] mt-40'>ABOUT</p>
-            <p className='mt-20 text-4xl text-leading-8 tracking-[0.20em] text-[var(--text-color)]'>I’m Shreyas karkera, a passionate web developer who loves creating clean, modern, and responsive websites.</p>
-        </div>
-    )
-}
+        <>
+            <div className="mt-[150px]">
+                {/* ABOUT Heading */}
+                <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false, amount: 0.4 }}
+                    transition={{ duration: 0.6, ease: "easeOut" }}
+                    className="text-8xl font-light text-[var(--text-color)] mb-3 tracking-[0.15em]"
+                >
+                    <span className="text-8xl font-normal text-[var(--maintext-color)] tracking-[0.20em] mt-40">
+                        ABOUT
+                    </span>
+                </motion.p>
 
-export default About
+                {/* Paragraph */}
+                <motion.p
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: false, amount: 0.4 }}
+                    transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+                    className="mt-[60px] text-4xl leading-[3rem] tracking-[0.20em] text-[var(--text-color)]"
+                >
+                    I’m Shreyas Karkera, a passionate web developer who loves creating clean,
+                    modern, and responsive websites.
+                </motion.p>
+            </div>
+
+            {/* Buttons */}
+            <div className="flex gap-9 mb-[60px]">
+                <Button name="Resume" />
+                <Link to="/more-about">
+                    <Button name="More" />
+                </Link>
+            </div>
+
+            {/* Navigation Button */}
+            <NavigationButton name="PROJECTS" />
+        </>
+    );
+};
+
+export default About;
