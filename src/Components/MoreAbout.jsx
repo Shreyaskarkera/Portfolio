@@ -44,7 +44,7 @@ const MoreAbout = () => {
             <div className='col-span-4  text-white'>
                 <motion.p initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.85 }}
+                    transition={{ duration: 0.6, delay: 0.85 }}
                     className='font-bold text-4xl'>Skill & Interest</motion.p>
                 <motion.p initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
