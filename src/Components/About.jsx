@@ -34,7 +34,7 @@ const About = () => {
             </div>
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-9 mb-12 sm:mb-16 lg:px-24">
+            <div className="flex sm:flex-row gap-4 sm:gap-9 mb-12 sm:mb-16 lg:px-24">
                 <Button name="Resume" />
                 <Link to="/more-about">
                     <Button name="More" />
