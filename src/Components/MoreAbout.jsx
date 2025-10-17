@@ -3,7 +3,7 @@ import ProfileImg from '../assets/paulwalker.jpeg'
 import { motion } from "framer-motion";
 const MoreAbout = () => {
     return (
-        <div className="grid grid-cols-4 md:grid-cols-12  mt-15">
+        <div className="grid grid-cols-4 md:grid-cols-12  mt-15 gap-6 md:gap-25">
             {/* Image Section */}
             <div className="col-span-2 md:col-span-4 h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[85vh] my-6">
                 <motion.img
@@ -18,26 +18,27 @@ const MoreAbout = () => {
             </div>
 
 
-            {/* 1-column gap */}
-            <div className="md:col-span-1"></div>
 
             {/* Text Section */}
-            <div className="col-span-2 md:col-span-7 text-[var(--maintext-color)] mt-5">
-                <motion.p
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.5 }}
-                    className="text-3xl md:text-8xl font-black ">
-                    Frontend Developer<span className="text-white">,</span> UI Designer
-                </motion.p>
-                <motion.p
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.75 }}
-                    className='font-medium  text-[var(--text-color)]  tracking-[0.15em]s mt-10 leading-8'>
-                    Hello! I’m Shreyas Karkera, a web developer and UI/UX enthusiast from India, with a Bachelor’s degree in Computer Applications from Srinivas University.
-                    Over the years, I’ve built responsive web solutions, dashboards, and full-stack applications, using technologies like HTML, CSS, JavaScript, PHP, and MySQL.
-                    I love transforming ideas into intuitive digital experiences, blending robust functionality with elegant design.</motion.p>
+            <div className='row-span-2 col-span-2 md:col-span-7 gap-20'>
+
+                <div className=" text-[var(--maintext-color)] mt-5 ">
+                    <motion.p
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.5 }}
+                        className="text-3xl md:text-8xl font-black ">
+                        Frontend Developer<span className="text-white">,</span> UI Designer
+                    </motion.p>
+                    <motion.p
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.75 }}
+                        className='font-medium text-[12px]  text-[var(--text-color)]  md:tracking-[0.15em]s mt-10 md:leading-8'>
+                        Hello! I’m Shreyas Karkera, a web developer and UI/UX enthusiast from India, with a Bachelor’s degree in Computer Applications from Srinivas University.
+                        Over the years, I’ve built responsive web solutions, dashboards, and full-stack applications, using technologies like HTML, CSS, JavaScript, PHP, and MySQL.
+                        I love transforming ideas into intuitive digital experiences, blending robust functionality with elegant design.</motion.p>
+                </div>
             </div>
             <div className='col-span-4 h-[85vh] my-10 text-white'>
                 <p className='font-bold text-4xl'>Skill & Interest</p>
