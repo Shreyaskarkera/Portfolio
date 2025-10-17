@@ -4,7 +4,7 @@ import NavigationButton from './NavigationButton';
 
 const Home = () => {
     return (
-        <div className="mt-auto flex flex-col items-center justify-center min-h-screen bg-[#262626] text-white text-center px-4 sm:px-6 md:px-12 lg:px-24">
+        <div className="mt-0 flex flex-col items-center justify-center min-h-screen bg-[#262626] text-white text-center px-4 sm:px-6 md:px-12 lg:px-24">
 
             {/* First Line */}
             <motion.p
