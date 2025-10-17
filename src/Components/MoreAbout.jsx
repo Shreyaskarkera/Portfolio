@@ -5,7 +5,7 @@ const MoreAbout = () => {
     return (
         <div className="grid grid-cols-4 md:grid-cols-12  mt-15 gap-6 md:gap-25">
             {/* Image Section */}
-            <div className="col-span-2 md:col-span-4 h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[85vh] my-6">
+            <div className="col-span-2 md:col-span-4 h-[50vh] md:h-[70vh] lg:h-[85vh] my-6">
                 <motion.img
                     src={ProfileImg}
                     alt="Profile"
@@ -34,7 +34,7 @@ const MoreAbout = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.75 }}
-                        className='font-medium text-[12px]  text-[var(--text-color)]  md:tracking-[0.15em]s mt-10 md:leading-8'>
+                        className='font-medium text-[12px]  text-[var(--text-color)]  md:tracking-[0.15em]s mt-8 md:leading-8'>
                         Hello! I’m Shreyas Karkera, a web developer and UI/UX enthusiast from India, with a Bachelor’s degree in Computer Applications from Srinivas University.
                         Over the years, I’ve built responsive web solutions, dashboards, and full-stack applications, using technologies like HTML, CSS, JavaScript, PHP, and MySQL.
                         I love transforming ideas into intuitive digital experiences, blending robust functionality with elegant design.</motion.p>
