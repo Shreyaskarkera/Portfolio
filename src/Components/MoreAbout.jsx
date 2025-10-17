@@ -40,7 +40,7 @@ const MoreAbout = () => {
                         I love transforming ideas into intuitive digital experiences, blending robust functionality with elegant design.</motion.p>
                 </div>
             </div>
-            <div className='col-span-4 h-[85vh] my-10 text-white'>
+            <div className='col-span-4 h-auto my-10 text-white'>
                 <p className='font-bold text-4xl'>Skill & Interest</p>
                 <p>I’m passionate about continuous learning and constantly improving my skills to keep up with the fast-changing world of web development. I thrive in creative, collaborative environments that value innovation and user-centered design. My technical strengths include HTML, CSS, JavaScript, PHP, and MySQL, along with growing experience in React and Tailwind CSS.
 
