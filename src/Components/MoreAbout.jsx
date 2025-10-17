@@ -48,7 +48,7 @@ const MoreAbout = () => {
                     className='font-bold text-4xl'>Skill & Interest</motion.p>
                 <motion.p initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 1 }}>
+                    transition={{ duration: 0.75, delay: 1 }}>
                     I’m passionate about continuous learning and constantly improving my skills to keep up with the fast-changing world of web development. I thrive in creative, collaborative environments that value innovation and user-centered design. My technical strengths include HTML, CSS, JavaScript, PHP, and MySQL, along with growing experience in React and Tailwind CSS.
 
 
