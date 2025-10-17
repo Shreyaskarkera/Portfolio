@@ -27,7 +27,7 @@ const MoreAbout = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.5 }}
-                        className="text-3xl md:text-8xl font-black ">
+                        className="text-[32px] md:text-8xl font-black ">
                         Frontend Developer<span className="text-white">,</span> UI Designer
                     </motion.p>
                     <motion.p
