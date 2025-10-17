@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const About = () => {
     return (
         <>
-            <div className="mt-[10px] md:mt-[50px] lg:mt-[100px] px-4 sm:px-2 md:px-12 lg:px-24">
+            <div className="h-screen px-4 sm:px-2 md:px-12 lg:px-24 flex flex-col justify-center">
                 {/* ABOUT Heading */}
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
@@ -27,24 +27,24 @@ const About = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: false, amount: 0.4 }}
                     transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
-                    className="mt-6 sm:mt-8 text-base sm:text-lg md:text-2xl lg:text-2xl leading-relaxed sm:leading-7 md:leading-10 lg:leading-[2rem] tracking-wide text-[var(--text-color)]"
+                    className="mt-10 text-base sm:text-lg md:text-2xl lg:text-2xl leading-relaxed sm:leading-7 md:leading-10 lg:leading-[2rem] tracking-wide text-[var(--text-color)]"
                 >
                     I’m Shreyas Karkera, a passionate web developer from India. I create clean, modern, and responsive websites with a focus on user experience. I enjoy turning ideas into interactive web solutions and continuously learning new technologies to enhance my craft.
                 </motion.p>
+                {/* Buttons */}
+                <div className="flex sm:flex-row gap-4 sm:gap-9  sm:mb-16  text-center items-center  ">
+                    <Button name="Resume" />
+                    <Link to="/more-about">
+                        <Button name="More" />
+                    </Link>
+                </div>
+
+                {/* Navigation Button */}
+            </div>
+            <div className="relative bottom-4 sm:bottom-10 left-0 w-full flex justify-center px-2 sm:px-0 ">
+                <NavigationButton name='PROJECTS' />
             </div>
 
-            {/* Buttons */}
-            <div className="flex sm:flex-row gap-4 sm:gap-9 mb-12 sm:mb-16 lg:px-24">
-                <Button name="Resume" />
-                <Link to="/more-about">
-                    <Button name="More" />
-                </Link>
-            </div>
-
-            {/* Navigation Button */}
-            <div className="flex justify-center">
-                <NavigationButton name="PROJECTS" />
-            </div>
         </>
     );
 };

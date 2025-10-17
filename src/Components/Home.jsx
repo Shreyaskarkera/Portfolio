@@ -37,7 +37,7 @@ const Home = () => {
             </motion.p>
 
             {/* Navigation Button */}
-            <div className="absolute bottom-4 sm:bottom-10 left-0 w-full flex justify-center px-2 sm:px-0">
+            <div className="absolute bottom-4 sm:bottom-10 left-0 w-full flex justify-center px-2 sm:px-0 ">
                 <NavigationButton name='ABOUT' />
             </div>
 

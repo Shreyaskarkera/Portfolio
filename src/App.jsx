@@ -11,9 +11,9 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={
-          <div className='mx-9 md:mx-19 lg:mx-38'>
-            <Home />
-            <About />
+          <div className='mx-9 md:mx-19 lg:mx-38 snap-x snap-mandatory'>
+            <Home className="snap-center" />
+            <About className="snap-center" />
           </div>
         } />
         <Route path="/more-about" element={
