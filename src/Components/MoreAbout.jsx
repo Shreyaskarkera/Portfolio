@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const MoreAbout = () => {
     return (
 
-        <div className="grid grid-cols-4 md:grid-cols-12  mt-0 gap-6 md:gap-25">
+        <div className="grid grid-cols-4 md:grid-cols-12  mt-15 gap-6 md:gap-25">
             {/* Image Section */}
             <div className="col-span-2 md:col-span-4 h-[50vh]  md:h-[70vh] lg:h-[85vh] my-6">
                 <motion.img
