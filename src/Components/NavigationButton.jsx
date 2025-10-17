@@ -2,7 +2,8 @@ import React from 'react'
 import { FaArrowDown } from "react-icons/fa";
 const NavigationButton = (props) => {
     return (
-        <div className="flex flex-col items-center relative bottom-0 left-0 w-full z-50 ">
+        <div className="flex flex-col items-center relative bottom-0 left-0 w-full z-50 px-2 sm:px-4 md:px-6 lg:px-8">
+
             {/* ABOUT Text */}
             <span className=" text-[var(--maintext-color)] text-md font-semibold mb-2 tracking-widest hover:text-[#FF5900] transition-colors duration-300 cursor-pointer">
                 {props.name}

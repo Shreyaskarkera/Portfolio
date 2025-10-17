@@ -11,7 +11,7 @@ const Home = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="text-5xl sm:text-6xl md:text-6xl lg:text-8xl font-light text-[var(--text-color)] mb-3 tracking-[0.10em] sm:tracking-[0.12em] md:tracking-[0.15em]"
+                className="text-4xl sm:text-6xl md:text-6xl lg:text-8xl font-light text-[var(--text-color)] mb-3 tracking-[0.10em] sm:tracking-[0.12em] md:tracking-[0.15em]"
             >
                 CREATIVE
             </motion.p>
@@ -21,7 +21,7 @@ const Home = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.75, delay: 0.5 }}
-                className="text-5xl sm:text-6xl md:text-6xl lg:text-8xl font-semibold tracking-[0.18em] sm:tracking-[0.20em] md:tracking-[0.24em] text-[var(--maintext-color)]  mb-3 font-serif"
+                className="text-4xl sm:text-6xl md:text-6xl lg:text-8xl font-semibold tracking-[0.18em] sm:tracking-[0.20em] md:tracking-[0.24em] text-[var(--maintext-color)]  mb-3 font-serif"
             >
                 FRONTEND
             </motion.p>
@@ -31,15 +31,16 @@ const Home = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 1 }}
-                className="text-5xl sm:text-6xl md:text-6xl lg:text-8xl font-light text-[var(--text-color)] tracking-[0.10em] sm:tracking-[0.12em] md:tracking-[0.15em]"
+                className="text-4xl sm:text-6xl md:text-6xl lg:text-8xl font-light text-[var(--text-color)] tracking-[0.10em] sm:tracking-[0.12em] md:tracking-[0.15em]"
             >
                 DEVELOPER
             </motion.p>
 
             {/* Navigation Button */}
-            <div className="absolute bottom-10 left-0 w-full flex justify-center">
+            <div className="absolute bottom-4 sm:bottom-10 left-0 w-full flex justify-center px-2 sm:px-0">
                 <NavigationButton name='ABOUT' />
             </div>
+
 
         </div>
     )
