@@ -40,7 +40,7 @@ const MoreAbout = () => {
                         I love transforming ideas into intuitive digital experiences, blending robust functionality with elegant design.</motion.p>
                 </div>
             </div>
-            <div className='col-span-4 h-auto text-white'>
+            <div className='col-span-4  text-white'>
                 <motion.p initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.85 }}
