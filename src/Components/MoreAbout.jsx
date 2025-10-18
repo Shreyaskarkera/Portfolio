@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const MoreAbout = () => {
     return (
 
-        <div className="grid grid-cols-4 md:grid-cols-12  mt-15 gap-6 md:gap-25">
+        <div className="grid grid-cols-4 md:grid-cols-12  mt-15 gap-6 md:gap-6">
             {/* Image Section */}
             <div className="col-span-2 md:col-span-4 h-[50vh]  md:h-[70vh] lg:h-[85vh] my-6">
                 <motion.img
@@ -35,24 +35,35 @@ const MoreAbout = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.5, delay: 0.75 }}
-                        className='font-medium text-[12px]  text-[var(--text-color)]  md:tracking-[0.15em]s mt-8 md:leading-8'>
+                        className='font-medium text-[12px] md:text-[16px]  text-[var(--text-color)]  md:tracking-[0.15em]s mt-8 md:leading-8'>
                         Hello! I’m Shreyas Karkera, a web developer and UI/UX enthusiast from India, with a Bachelor’s degree in Computer Applications from Srinivas University.
                         Over the years, I’ve built responsive web solutions, dashboards, and full-stack applications, using technologies like HTML, CSS, JavaScript, PHP, and MySQL.
                         I love transforming ideas into intuitive digital experiences, blending robust functionality with elegant design.</motion.p>
                 </div>
             </div>
-            <div className='col-span-4  text-white'>
-                <motion.p initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: 0.85 }}
-                    className='font-bold text-4xl'>Skill & Interest</motion.p>
-                <motion.p initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.75, delay: 1 }}>
-                    I’m passionate about continuous learning and constantly improving my skills to keep up with the fast-changing world of web development. I thrive in creative, collaborative environments that value innovation and user-centered design. My technical strengths include HTML, CSS, JavaScript, PHP, and MySQL, along with growing experience in React and Tailwind CSS.
+            <div className='col-span-4 md:col-span-7 text-white'>
+                <div>
+
+                    <motion.p initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.6, delay: 0.85 }}
+                        className='font-bold text-3xl md:mt-5'>Skill & Interest</motion.p>
+                    <motion.p initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.75, delay: 1 }}
+                        className='mt-10 md:mt-5 text-[var(--text-color)]'>
+                        I’m passionate about continuous learning and constantly improving my skills to keep up with the fast-changing world of web development. I thrive in creative, collaborative environments that value innovation and user-centered design. My technical strengths include HTML, CSS, JavaScript, PHP, and MySQL, along with growing experience in React and Tailwind CSS.
 
 
-                    I enjoy crafting responsive web applications, designing clean interfaces, and exploring UI/UX principles that enhance user experience. Beyond coding, photography is my creative outlet — it helps me see design, balance, and composition in a whole new way. I also love long rides and exploring new places, which keep me inspired, refreshed, and full of creative energy.</motion.p>
+                        <span className='block mt-8 md:mt-10'>I enjoy crafting responsive web applications, designing clean interfaces, and exploring UI/UX principles that enhance user experience. Beyond coding, photography is my creative outlet — it helps me see design, balance, and composition in a whole new way. I also love long rides and exploring new places, which keep me inspired, refreshed, and full of creative energy.</span>
+                    </motion.p>
+                </div>
+                <div className='md:col-span-5'>
+                    <p className="font-bold text-3xl md:mt-5">Education</p>
+                    <p className="mt-5 text-[var(--text-color)]">
+                        Bachelor’s Degree in Computer Applications from Srinivas University.
+                    </p>
+                </div>
             </div>
         </div>
     )
