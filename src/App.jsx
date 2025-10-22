@@ -5,6 +5,7 @@ import Home from './Components/Home'
 import About from './Components/About'
 import MoreAbout from './Components/MoreAbout'
 import ScrollToTop from './Components/ScrollToTop'
+import Project from './Components/Project'
 const App = () => {
   return (
     <Router>
@@ -15,6 +16,7 @@ const App = () => {
             <div className=' md:mx-19 lg:mx-38 snap-x snap-mandatory'>
               <Home className="snap-center" />
               <About className="snap-center" />
+              <Project />
             </div>
           } />
           <Route path="/more-about" element={
