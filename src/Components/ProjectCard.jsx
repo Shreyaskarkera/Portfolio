@@ -3,7 +3,7 @@ import React from 'react';
 
 const ProjectCard = (props) => {
     return (
-        <div className="w-full bg-[#1e1e1e] border border-gray-700 rounded-xl p-5 hover:-translate-y-2 transition-all duration-300 shadow-lg flex flex-col md:flex-row items-center md:items-start gap-6 mb-5 mt-5">
+        <div className="w-full bg-[#1e1e1e] border border-gray-700 rounded-xl p-5 hover:-translate-y-2 transition-all duration-300 shadow-lg flex flex-col md:flex-row items-center md:items-start gap-6 md:mb-5 mb-2 mt-5">
 
             {/* Image Section */}
             <div className="flex-shrink-0 w-full md:w-62">
