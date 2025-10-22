@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import UrbanCare from "../assets/UrbanCare.png"
+import UrbanCare from "../assets/urbanCare.png"
 import CryptoDex from "../assets/cryptodex.png"
 import NavigationButton from './NavigationButton'
 const Project = () => {
