@@ -11,7 +11,7 @@ const NavigationButton = (props) => {
 
             {/* Circle with arrow */}
             <div className="w-10 h-10 border-2 border-white rounded-full flex items-center justify-center animate-bounce cursor-pointer">
-                <FaArrowDown className="text-white " />
+                <FaArrowDown className={`text-white ${props.className}`} />
             </div>
         </div>
     );

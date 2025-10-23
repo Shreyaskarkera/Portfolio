@@ -6,6 +6,7 @@ import About from './Components/About'
 import MoreAbout from './Components/MoreAbout'
 import ScrollToTop from './Components/ScrollToTop'
 import Project from './Components/Project'
+import Contact from './Components/Contact'
 const App = () => {
   return (
     <Router>
@@ -17,6 +18,7 @@ const App = () => {
               <Home className="snap-center" />
               <About className="snap-center" />
               <Project />
+              <Contact />
             </div>
           } />
           <Route path="/more-about" element={
