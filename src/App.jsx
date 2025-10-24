@@ -7,6 +7,7 @@ import MoreAbout from './Components/MoreAbout'
 import ScrollToTop from './Components/ScrollToTop'
 import Project from './Components/Project'
 import Contact from './Components/Contact'
+import MoreProjects from './Components/MoreProjects'
 const App = () => {
   return (
     <Router>
@@ -26,7 +27,13 @@ const App = () => {
               <MoreAbout />
             </div>
           } />
+          <Route path="/more-projects" element={
+            <div className='mx-3 md:mx-19 lg:mx-38'>
+              <MoreProjects />
+            </div>
+          } />
         </Routes>
+
       </ScrollToTop>
     </Router>
   )
