@@ -75,7 +75,12 @@ const MoreAbout = () => {
             </div>
             <div className="w-full flex flex-row justify-between items-center mb-5 md:mb-10 mt-10 md:mt-20">
                 <div className="flex items-center justify-center">
-                    <Button name="Resume" />
+                    <a
+                        href='shreyasResume.pdf'
+                        target='_blank'
+                    >
+                        <Button name="View Resume" />
+                    </a>
                 </div>
                 <div className="justify-start">
                     <p className="text-white text-lg font-medium">Contact</p>

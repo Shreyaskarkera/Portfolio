@@ -38,7 +38,7 @@ const About = () => {
                         href='shreyasResume.pdf'
                         target='_blank'
                     >
-                        <Button name="Resume" />
+                        <Button name="View Resume" />
                     </a>
 
                     <Link to="/more-about">
