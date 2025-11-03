@@ -7,10 +7,18 @@ const Navbar = () => {
             <p className="text-sm font-semibold tracking-wider text-[var(--text-color)]">SHREYAS KARKERA</p>
 
             <ul className="hidden md:flex gap-8 text-sm font-medium text-[var(--text-color)]">
-                <li className="hover:text-gray-400 cursor-pointer">HOME</li>
-                <li className="hover:text-gray-400 cursor-pointer">ABOUT</li>
-                <li className="hover:text-gray-400 cursor-pointer">PROJECTS</li>
-                <li className="hover:text-gray-400 cursor-pointer">CONTACT</li>
+                <li>
+                    <a href="#home" className="hover:text-gray-400 cursor-pointer">HOME</a>
+                </li>
+                <li>
+                    <a href="#about" className="hover:text-gray-400 cursor-pointer">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#project" className="hover:text-gray-400 cursor-pointer">PROJECTS</a>
+                </li>
+                <li>
+                    <a href="#contact" className="hover:text-gray-400 cursor-pointer">CONTACT</a>
+                </li>
             </ul>
 
             <ul className="hidden md:flex gap-5 text-sm font-medium text-[var(--text-color)]">

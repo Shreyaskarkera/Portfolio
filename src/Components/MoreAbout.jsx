@@ -79,7 +79,7 @@ const MoreAbout = () => {
                         href='shreyasResume.pdf'
                         target='_blank'
                     >
-                        <Button name="View Resume" />
+                        <Button name="Resume" />
                     </a>
                 </div>
                 <div className="justify-start">

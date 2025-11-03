@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const About = () => {
     return (
         <>
-            <div className="h-screen px-4 md:px-12 lg:px-24 flex flex-col justify-center">
+            <div className="h-screen px-4 md:px-18 lg:px-24 flex flex-col justify-center" id="about">
                 {/* ABOUT Heading */}
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
@@ -34,11 +34,14 @@ const About = () => {
                 {/* Buttons */}
                 <div className="flex flex-row gap-4 sm:gap-6 md:mt-20 mt-20 mb-4 items-center justify-start">
 
+                    <svg height="2" width="100%">
+                        <line x1="0" y1="0" x2="100%" y2="0" stroke="white" strokeWidth="2" />
+                    </svg>
                     <a
                         href='shreyasResume.pdf'
                         target='_blank'
                     >
-                        <Button name="View Resume" />
+                        <Button name="Resume" />
                     </a>
 
                     <Link to="/more-about">

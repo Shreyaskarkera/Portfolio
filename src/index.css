@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+html{
+  scroll-behavior: smooth;
+}
 body{
     background:#262626;
      scrollbar-width: none; /* Firefox */
