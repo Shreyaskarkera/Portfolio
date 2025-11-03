@@ -6,7 +6,7 @@ const MoreAbout = () => {
     return (
         <>
 
-            <div className="grid grid-cols-4 md:grid-cols-12  mt-15 gap-6 md:gap-6">
+            <div className="grid grid-cols-4 md:grid-cols-12  mt-15 gap-6 md:gap-12">
                 {/* Image Section */}
                 <div className="col-span-2 md:col-span-4 h-[50vh]  md:h-[70vh] lg:h-[85vh] my-6">
                     <motion.img
@@ -52,7 +52,7 @@ const MoreAbout = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.85 }}
-                            className="font-bold text-3xl md:mt-5"
+                            className="font-bold md:text-3xl md:mt-5"
                         >
                             Skill & Interest
                         </motion.p>

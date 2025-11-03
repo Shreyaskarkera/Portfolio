@@ -7,6 +7,7 @@ import MoreAbout from './Components/MoreAbout'
 import ScrollToTop from './Components/ScrollToTop'
 import Project from './Components/Project'
 import Contact from './Components/Contact'
+import Resume from './Components/Resume'
 import MoreProjects from './Components/MoreProjects'
 const App = () => {
   return (
@@ -27,6 +28,12 @@ const App = () => {
               <MoreAbout />
             </div>
           } />
+          <Route path="/resume" element={
+            <div className='mx-3 md:mx-19 lg:mx-38'>
+              <Resume />
+            </div>
+          } />
+
           <Route path="/more-projects" element={
             <div className='mx-3 md:mx-19 lg:mx-38'>
               <MoreProjects />

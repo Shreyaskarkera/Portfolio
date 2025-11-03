@@ -33,7 +33,14 @@ const About = () => {
                 </motion.p>
                 {/* Buttons */}
                 <div className="flex flex-row gap-4 sm:gap-6 md:mt-20 mt-20 mb-4 items-center justify-start">
-                    <Button name="Resume" />
+
+                    <a
+                        href='shreyasResume.pdf'
+                        target='_blank'
+                    >
+                        <Button name="Resume" />
+                    </a>
+
                     <Link to="/more-about">
                         <Button name="More" />
                     </Link>
