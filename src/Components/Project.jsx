@@ -40,7 +40,7 @@ const Project = () => {
 
             {/* Navigation Button */}
             <div className=" bottom-4 sm:bottom-10 w-full flex justify-center md:mt-20">
-                <NavigationButton name="CONTACT" />
+                <NavigationButton name="CONTACT" id="#contact" />
             </div>
         </>
     );

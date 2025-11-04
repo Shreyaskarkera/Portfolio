@@ -52,7 +52,7 @@ const MoreAbout = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.85 }}
-                            className="font-bold md:text-3xl md:mt-5"
+                            className="font-bold md:text-3xl "
                         >
                             Skill & Interest
                         </motion.p>
@@ -60,7 +60,7 @@ const MoreAbout = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.75, delay: 1 }}
-                            className="mt-10 md:mt-5 text-[var(--text-color)]"
+                            className="mt-10 text-[var(--text-color)]"
                         >
                             I’m passionate about continuous learning and constantly improving my skills to keep up with the fast-changing world of web development. I thrive in creative, collaborative environments that value innovation and user-centered design. My technical strengths include HTML, CSS, JavaScript, PHP, and MySQL, along with growing experience in React and Tailwind CSS.
 

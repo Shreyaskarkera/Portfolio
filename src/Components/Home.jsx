@@ -5,7 +5,7 @@ import NavigationButton from './NavigationButton';
 const Home = () => {
     return (
         <>
-            <div className="flex flex-col items-center justify-center min-h-screen bg-[#262626] text-white px-4 sm:px-6 md:px-12 lg:px-24">
+            <div className="flex flex-col items-center justify-center min-h-screen bg-[#262626] text-white px-4 sm:px-6 md:px-18 " id="home">
 
                 {/* First Line */}
                 <motion.p
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
             {/* Navigation Button */}
             <div className="absolute bottom-4 sm:bottom-10 left-0 w-full flex justify-center px-2 sm:px-0 ">
-                <NavigationButton name='ABOUT' />
+                <NavigationButton name='ABOUT' id="#about" />
             </div>
         </>
     )

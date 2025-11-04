@@ -14,14 +14,14 @@ const Contact = () => {
                 <div className="flex flex-row gap-4 sm:gap-6 md:mt-20 mt-20 mb-4 items-center justify-start">
                     <div className="flex items-center justify-center gap-4 w-full">
                         <div className="flex-grow h-[1px] bg-white"></div>
-                        <Button name='Instagram' />
-                        <Button name='Linkedin' />
-                        <Button name='Pafolios' />
+                        <Button name='Instagram' href='https://www.instagram.com' />
+                        <Button name='Linkedin' href='https://www.linkedin.com' />
+                        <Button name='Pafolios' href='null' />
                     </div>
 
                 </div>
             </div>
-            <NavigationButton name='Back To Top' className="rotate-180" />
+            <NavigationButton name='Back To Top' className="rotate-180" id="#home" />
         </>
     )
 }

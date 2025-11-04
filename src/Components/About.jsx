@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const About = () => {
     return (
         <>
-            <div className="h-screen px-4 md:px-18 lg:px-24 flex flex-col justify-center" id="about">
+            <div className="h-screen px-4 md:px-18  flex flex-col justify-center" id="about">
                 {/* ABOUT Heading */}
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
@@ -52,7 +52,7 @@ const About = () => {
                 {/* Navigation Button */}
             </div>
             <div className="relative bottom-4 sm:bottom-10 left-0 w-full flex justify-center px-2 sm:px-0 ">
-                <NavigationButton name='PROJECTS' />
+                <NavigationButton name='PROJECTS' id="#project" />
             </div>
 
         </>
