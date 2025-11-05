@@ -84,7 +84,16 @@ const MoreAbout = () => {
                 </div>
                 <div className="justify-start">
                     <p className="text-white text-lg font-medium">Contact</p>
-                    <p className='text-sm text-[var(--text-color)]'>shreyasbkutlu@gmail.com</p>
+                    <a
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=shreyasbkutlu@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <p className="text-sm text-[var(--text-color)] cursor-pointer">
+                            shreyasbkutlu@gmail.com
+                        </p>
+                    </a>
+
                 </div>
             </div>
 

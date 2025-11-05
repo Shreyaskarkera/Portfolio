@@ -10,6 +10,7 @@ import Contact from './Components/Contact'
 import Resume from './Components/Resume'
 import MoreProjects from './Components/MoreProjects'
 const App = () => {
+
   return (
     <Router>
       <ScrollToTop>
