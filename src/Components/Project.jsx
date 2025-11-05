@@ -9,7 +9,7 @@ import Button from './Buttons/Button';
 const Project = () => {
     return (
         <>
-            <div className="h-screen px-4 md:px-18 flex flex-col justify-center items-start gap-10 mt-10" id="project">
+            <div className="h-screen px-4 md:px-18 flex flex-col justify-center items-start gap-10 mt-20" id="project">
 
                 {/* Heading */}
                 <p className="text-3xl sm:text-4xl md:text-6xl lg:text-6xl font-normal text-[var(--maintext-color)] tracking-[0.12em] md:tracking-[0.20em]">

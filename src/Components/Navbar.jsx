@@ -4,6 +4,7 @@ const Navbar = () => {
     const [isVisible, setIsVisible] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
 
+
     useEffect(() => {
         const handleScroll = () => {
             if (window.pageYOffset > lastScrollY) {
@@ -23,6 +24,7 @@ const Navbar = () => {
     }, [lastScrollY]);
 
     return (
+
         <nav
             className={`flex justify-between items-center px-8 py-5 bg-transparent fixed top-0 left-0 w-full z-50 transition-transform duration-300 ${isVisible ? "translate-y-0" : "-translate-y-full"
                 }`}
@@ -32,6 +34,7 @@ const Navbar = () => {
             </p>
 
             <ul className="hidden md:flex gap-8 text-sm font-medium text-[var(--text-color)]">
+
                 <li>
                     <a href="#home" className="hover:text-gray-400 cursor-pointer">
                         HOME

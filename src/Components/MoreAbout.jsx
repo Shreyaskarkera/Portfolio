@@ -46,29 +46,71 @@ const MoreAbout = () => {
                 <div className="col-span-4 md:col-span-12 text-white">
 
 
-                    {/* Skill & Interest */}
-                    <div>
-                        <motion.p
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6, delay: 0.85 }}
-                            className="font-bold md:text-3xl "
-                        >
-                            Skill & Interest
-                        </motion.p>
-                        <motion.p
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.75, delay: 1 }}
-                            className="mt-10 text-[var(--text-color)]"
-                        >
-                            I’m passionate about continuous learning and constantly improving my skills to keep up with the fast-changing world of web development. I thrive in creative, collaborative environments that value innovation and user-centered design. My technical strengths include HTML, CSS, JavaScript, PHP, and MySQL, along with growing experience in React and Tailwind CSS.
+                    {/* Skill & Interest + Education */}
+                    <div className="col-span-4 md:col-span-12 grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-12 text-white mt-10">
 
-                            <span className="block mt-8 md:mt-10">
-                                I enjoy crafting responsive web applications, designing clean interfaces, and exploring UI/UX principles that enhance user experience. Beyond coding, photography is my creative outlet — it helps me see design, balance, and composition in a whole new way. I also love long rides and exploring new places, which keep me inspired, refreshed, and full of creative energy.
-                            </span>
-                        </motion.p>
+                        {/* Skill & Interest */}
+                        <div>
+                            <motion.p
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.6, delay: 0.85 }}
+                                className="font-bold md:text-3xl"
+                            >
+                                Skill & Interest
+                            </motion.p>
+
+                            <motion.p
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.75, delay: 1 }}
+                                className="mt-10 text-[var(--text-color)] leading-7"
+                            >
+                                I’m passionate about continuous learning and constantly improving my skills to keep up with the fast-changing world of web development. I thrive in creative, collaborative environments that value innovation and user-centered design.
+
+                                <span className="block mt-6">
+                                    I enjoy crafting responsive web applications, designing clean interfaces, and exploring UI/UX principles that enhance user experiences. Photography, travel, and long rides inspire my creativity.
+                                </span>
+                            </motion.p>
+                        </div>
+
+                        {/* Education */}
+                        <div>
+                            <motion.p
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.6, delay: 1 }}
+                                className="font-bold md:text-3xl"
+                            >
+                                Education
+                            </motion.p>
+
+                            <motion.div
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.75, delay: 1.2 }}
+                                className="mt-10 text-[var(--text-color)] leading-7 space-y-6"
+                            >
+                                <div>
+                                    <p className="font-medium text-white">Bachelor of Computer Applications</p>
+                                    <p className="text-sm">Srinivas University • 2022 - 2025</p>
+                                </div>
+
+                                <div>
+                                    <p className="font-medium text-white">Pre-University (Science)</p>
+                                    <p className="text-sm">Govt PU College • 2020 - 2022</p>
+                                </div>
+
+                                <div>
+                                    <p className="font-medium text-white">SSLC</p>
+                                    <p className="text-sm">St Aloysius High School • 2019 - 2020</p>
+                                </div>
+                            </motion.div>
+                        </div>
+
                     </div>
+
+
                 </div>
 
 
